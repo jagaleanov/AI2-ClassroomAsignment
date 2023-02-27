@@ -28,7 +28,7 @@ tiempoClase(HoraInicio,HoraFin,Dia) :-
     diaHabil(_,Dia),
     ((Dia \== sabado);(HoraFin =< 12)).
     
-:- dynamic salon/3.
+:- dynamic aula/3.
 % aula(Edificio, CodigoSalon, CantidadEstudiantes).
 aula('sabio Caldas', '101', 50).
 aula('sabio Caldas', '102', 50).
